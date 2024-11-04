@@ -1,0 +1,189 @@
+  body {
+    padding-top: 55px;
+  }
+
+  .done {
+    color: #909090b5;
+    text-decoration: line-through;
+    transition: 0.2s ease;
+  }
+
+  .pending {
+    text-decoration: none;
+  }
+
+  .todo > div {
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+
+  .todo {
+    padding: 0 10px 0 10px;
+    margin: 5px 0 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.2s ease;
+    background-color: white;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1;
+  }
+
+  .todo:hover {
+    background-color: #d5d5d561;
+  }
+
+  .dark .todo:hover {
+    background-color: #77777732;
+  }
+
+  .dark .todo {
+    background-color: #202020;
+    color: white;
+  }
+
+  .dark .todo-done {
+    background-color: rgb(78, 94, 78) !important;
+  }
+
+  .todo-done {
+    background-color: rgb(167, 226, 167) !important;
+  }
+
+  #date-created {
+    color: gray;
+    width: 30%;
+  }
+
+  .todo button {
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: transparent;
+    font-size: 2em;
+    cursor: pointer;
+    transition: 0.2s ease;
+    color: rgb(170, 65, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .todo button:hover {
+    background-color: rgba(136, 26, 26, 0.231);
+  }
+
+  header {
+    z-index: 2;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.1);
+    padding: 0 10px 0 10px;
+  }
+
+  #header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #header-left > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 2em;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  #header-left > button:hover {
+    background-color: #5e5e5e48;
+  }
+
+  .dark #header-left > button {
+    color: white;
+  }
+
+  header h1 {
+    margin: 10px 0 10px 0;
+    user-select: none;
+  }
+
+  header > section {
+    display: flex;
+    width: 30%;
+    gap: 10px;
+    align-items: center;
+  }
+
+  section button {
+    height: 35px;
+    width: 35px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    font-size: 2em;
+    cursor: pointer;
+  }
+
+  section input {
+    height: 35px;
+    padding: 0 10px 0 10px;
+    outline: none;
+    flex: 1;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(158, 158, 158, 0.204);
+    transition: 0.2s ease;
+  }
+
+  section input:hover {
+    background-color: rgba(191, 191, 191, 0.204);
+  }
+
+  header > button {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  header > button img {
+    width: 24px;
+  }
+
+  header > button:hover {
+    background-color: #c8c8c83a;
+  }
+
+  .dark header > button > img {
+    filter: invert(100%);
+  }
+
+  .dark section > input {
+    color: white;
+    caret-color: white;
+  }
+
