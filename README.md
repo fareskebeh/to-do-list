@@ -1,7 +1,7 @@
 # Simple To-Do List App
 
 **Description**: 
-This is a simple to-do list app created by a beginner. You can add, and delete your tasks. It's basic but helps you stay organized.
+This is a simple to-do list app created by a beginner. You can add and delete your tasks. It's basic but helps you stay organized.
 
 ## Features
 - Add tasks
